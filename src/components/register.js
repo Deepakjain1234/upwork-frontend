@@ -35,7 +35,7 @@ export const Register =()=>{
 
         <>
         <div>
-            <form action="">
+            
                 <h1>Register</h1>
                 <h3>Name</h3>
                 <input type="text" onChange={(event) => setname(event.target.value)} />
@@ -44,7 +44,7 @@ export const Register =()=>{
                 <h3>password</h3>
                 <input type="password" onChange={(event) => setpassword(event.target.value)}/>
                 <button onClick={()=>register()}>submit</button>
-            </form>
+            
         </div>
         </>
     )
